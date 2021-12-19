@@ -47,7 +47,7 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "prettier --write",
-      "eslint --max-warning=0"
+      "eslint --max-warnings=0"
     ]
   },
   "devDependencies": {

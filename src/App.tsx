@@ -3,7 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 
 // eslint-disable-next-line func-names
-const App => function () {
+const App = function () {
   return (
     <div className="App">
       <header className="App-header">
