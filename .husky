@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# コミット前に実行するコマンド
+npm run lint-staged
