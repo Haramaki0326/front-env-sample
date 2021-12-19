@@ -23,6 +23,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint \"./{lib,src,test}/**/*.{ts,tsx}\"",
     "lint-fix": "eslint --fix \"./{lib,src,test}/**/*.{ts,tsx}\" && prettier --write \"./{lib,src,test}/**/*.{ts,tsx}\"",
+    "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
   "eslintConfig": {
